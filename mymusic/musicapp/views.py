@@ -85,7 +85,7 @@ def get_spotify_track_id(access_token, track_name, artist_name=None):
     params = {
         "q": query,
         "type": "track",
-        "limit": 10  # You might want to search the top 10 results to ensure accuracy.
+        "limit": 10 
     }
 
     search_response = requests.get(search_url, headers=headers, params=params)
@@ -113,7 +113,7 @@ def get_spotify_recommendations_by_track(access_token, track_id):
     recommendations_url = "https://api.spotify.com/v1/recommendations"
     params = {
         "seed_tracks": track_id,
-        "limit": 10  # Number of tracks you want to fetch
+        "limit": 10  # Number of tracks to fetch
     }
 
     recommendations_response = requests.get(recommendations_url, headers=headers, params=params)
