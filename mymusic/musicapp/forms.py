@@ -2,7 +2,7 @@ from django import forms
 
 class ArtistTrackInputForm(forms.Form):
     artist_name = forms.CharField(label='Artist Name', max_length=100)
-    track_name = forms.CharField(label='Track Name', max_length=100, required=False)  # It's optional to fill in the track name
+    track_name = forms.CharField(label='Track Name', max_length=100)
 
 
     def clean_artist_name(self):
