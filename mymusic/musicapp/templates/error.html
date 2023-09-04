@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        /* You can add any CSS here or link to an external CSS file */
+        body {
+            background-color: #191414;  /* Spotify's dark theme background color */
+            color: #1DB954;  /* Spotify's main green color */
+            font-family: 'Arial', sans-serif;  /* You can adjust this font to be closer to Spotify's */
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* This will cover the entire viewport height */
+            font-family: Arial, sans-serif;
+        }
+
+        .spotify-button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #1DB954;
+            border: none;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .spotify-button:hover {
+            background-color: #1AA34A;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>{{ message }}</h1>
+        <a href="{% url 'index' %}" class="spotify-button">Go back</a>
+    </div>
+</body>
+</html>

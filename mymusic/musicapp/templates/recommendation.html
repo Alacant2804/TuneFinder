@@ -1,0 +1,24 @@
+<!-- artist_genre.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recommended tracks for "{{ track_name }}"</h1>
+        <ul>
+        {% for track, artist in recommended_tracks %}
+            <li>{{ track }} by {{ artist }}</li>
+        {% endfor %}
+        </ul>
+
+        <a href="{% url 'index' %}" class="spotify-button">Go Back</a>
+    </div>
+</body>
+</html>
