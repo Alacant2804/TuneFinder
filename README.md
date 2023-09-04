@@ -5,8 +5,11 @@ Discover music recommendations seamlessly with TuneFinder, powered by the Spotif
 🌟 Features
 
 Artist & Track Search: Enter the name of an artist or a track to kickstart your musical exploration.
+
 Spotify Integration: Harnesses the Spotify API to offer accurate and relevant track recommendations.
+
 Error Handling: Comprehensive error feedback for unmatched artist or track entries.
+
 Modern UI: A sleek, user-friendly interface designed for both desktop and mobile experiences.
 
 🛠️ Tech Stack
