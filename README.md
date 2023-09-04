@@ -18,6 +18,7 @@ Backend: Django
 Frontend: HTML, CSS, JavaScript
 API: Spotify API
 Database: SQLite
+
 🚀 Getting Started
 
 Prerequisites
@@ -28,7 +29,7 @@ A Spotify Developer Account (for API access)
 Installation
 
 Clone the Repository:
-git clone https://github.com/your-username/TuneFinder.git
+git clone https://github.com/Alacant2804/TuneFinder.git
 
 Navigate to Project Directory:
 cd TuneFinder
