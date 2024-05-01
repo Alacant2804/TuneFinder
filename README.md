@@ -1,4 +1,4 @@
-## TuneFinder 🎵
+# TuneFinder 🎵
 
 Discover music recommendations seamlessly with TuneFinder, powered by the Spotify API.
 
