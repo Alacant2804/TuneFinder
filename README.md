@@ -66,7 +66,13 @@ python manage.py runserver
 
 ***CSS:*** Used for styling the web application.
 
-# 📜 License
+🔄 Improvements
+
+* Responsive CSS Styling: Update CSS styling to enhance responsiveness and ensure a seamless experience across all devices, including tablets and smaller mobile screens.
+* Enhanced Music Recommendation Logic: Improve the recommendation algorithm to provide more sophisticated and personalized music recommendations by analyzing user preferences and listening history.
+* UI/UX Enhancements: Continuously refine the user interface for better usability and aesthetics, incorporating user feedback and modern design principles.
+
+## 📜 License
 
 Distributed under the MIT License.
 
