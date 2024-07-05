@@ -21,10 +21,11 @@ Discover music recommendations seamlessly with TuneFinder, powered by the Spotif
 
 ## 🚀 Getting Started
 
-Prerequisites
-Python 3.x
-Django
-A Spotify Developer Account (for API access)
+***Prerequisites***
+
+* Python 3.x
+* Django
+* A Spotify Developer Account (for API access)
 
 ## Installation
 
@@ -50,16 +51,19 @@ python manage.py runserver
 
 ## 💼 Usage
 
-Open a web browser and navigate to http://127.0.0.1:8000/.
-On the main page, input the name of your preferred artist or track.
-Click "Find" to receive a curated list of recommendations.
-Enjoy exploring new tracks!
+* Open a web browser and navigate to http://127.0.0.1:8000/.
+* On the main page, input the name of your preferred artist or track.
+* Click "Find" to receive a curated list of recommendations.
+* Enjoy exploring new tracks!
 
 ## 🧩 Technologies Used
 
 ***Django:*** A high-level Python web framework.
+
 ***Spotify Web API:*** Provides access to various Spotify resources.
+
 ***SQLite:*** Default relational database system used with Django.
+
 ***CSS:*** Used for styling the web application.
 
 # 📜 License
